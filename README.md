@@ -1,2 +1,2 @@
 # test
-Realización de pruebas en clase.
+Realización de pruebas en clase y modificación.
