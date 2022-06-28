@@ -2,7 +2,7 @@ from asyncore import close_all
 import random
 while True:
     try:
-        archivo = open(input("Ingrese el Nombre de su archivo. ").strip())
+        archivo = open(input("Ingrese el nombre de su archivo. ").strip())
     except FileNotFoundError: 
         print("El archivo es Inexistente.")
     else:
