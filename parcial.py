@@ -4,7 +4,7 @@ while True:
     try:
         archivo = open(input("Ingrese el nombre de su archivo. ").strip())
     except FileNotFoundError: 
-        print("El archivo es Inexistente.")
+        print("El archivo actual es inexistente.")
     else:
         break
 
